@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading{
+  text-align: center;
+  color: aqua;
+  text-shadow: 0px 3px 6px red;
+  font-size: 40px;
+  margin: 70px 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.div_image{
+  display: flex;
+  justify-content: center;
+}
+.div_image img{
+  width: 200px;
+  height: 250px;
+
+}
