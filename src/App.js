@@ -1,28 +1,17 @@
 import React from 'react';
 
-function App() {
-  let currDate = new Date(20, 10,28, 15);
-currDate = currDate.getHours();
-let greeting = " ";
-const cssStyle = {  }
+const FirstName = "Nizam";
+const LastName = "Uddin";
 
-if (currDate >=1 && currDate < 12) {
-  greeting = "Good Morning"
-  cssStyle.color = 'green';
-  
-} else if(currDate >= 12 && currDate < 19) {
-  greeting = "Good Afternoon";
-  cssStyle.color = 'yellow';
-
-} else {
-  greeting = "Good Night";
-  cssStyle.color = 'black';
-}
-  return (
-    <div className="div">
-    <h1>Hello Sir, <span style= {cssStyle}>{greeting}</span></h1>
-    </div>
-  );
+function myName (){
+  let myName = "Nizam Uddin";
+  return myName
 }
 
-export default App;
+function FullName (){
+  let FullName = "Nizam Uddin khondokar";
+  return FullName
+}
+
+export default FirstName;
+export {LastName, myName, FullName};
