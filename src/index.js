@@ -1,16 +1,29 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { add, sub, mul, div } from './Calc';
+import Card from './Cards';
 
 
 ReactDom.render(
   <>
-    <ul>
-      <li>{add(2,3)}</li>
-      <li>{sub(30,3)}</li>
-      <li>{mul(10,3)}</li>
-      <li>{div(10,3)}</li>
-    </ul>
+  <Card 
+    imgsrc = "https://wallpaperaccess.com/full/1605477.jpg"
+    sname = "Dark"
+    title = "A Netflix Original Series"
+    link = "https://www.netflix.com/bd/title/80100172"
+  />
+  <Card 
+    imgsrc = "https://c4.wallpaperflare.com/wallpaper/436/197/281/dark-netflix-tv-series-netflix-abstract-3d-abstract-hd-wallpaper-preview.jpg"
+    sname = "Extra Curricullar"
+    title = "A Netflix Series"
+    link = "https://www.netflix.com/bd/title/80100172"
+  />
+  <Card 
+    imgsrc = "https://images.wallpapersden.com/image/wxl-louis-hofmann-and-lisa-vicari-netflix-dark_71760.jpg"
+    sname = "dark2"
+    title = "Netflix Original Series"
+    link = "https://www.netflix.com/bd/title/80100172"
+  />
+    
   </>,
   document.getElementById('root')
 );
